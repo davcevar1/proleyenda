@@ -6,7 +6,7 @@ var ctrlMain = require('../controllers/main')
 
 router.get('/', ctrlMain.index );
 router.get('/leyendas', ctrlMain.leyendas );
-
-
+router.get('/almeida', ctrlMain.almeida );
+router.get('/C1028', ctrlMain.C1028 );
 
 module.exports = router;
